@@ -30,13 +30,13 @@
         </div>
     </nav>
     <main class="page projets-page">
-        <div class="text-center" style="padding: 25px;"><a class="btn btn-primary" type="button" href="./assets/Sarasa_Pattabiraman.pdf" download="Sarasa_Pattabiraman.pdf">Download Resume</a></div><div id="adobe-dc-view" class="container" style="max-width: 1100px;"></div>
+        <div class="text-center" style="padding: 25px;"><a class="btn btn-primary" type="button" href="assets/Sarasa_Pattabiraman.pdf" download="Sarasa_Pattabiraman.pdf">Download Resume</a></div><div id="adobe-dc-view" class="container" style="max-width: 1100px;"></div>
 <script src="https://acrobatservices.adobe.com/view-sdk/viewer.js"></script>
 <script type="text/javascript">
 document.addEventListener("adobe_dc_view_sdk.ready", function () {
     var adobeDCView = new AdobeDC.View({ clientId: "73601126830848b6bb07f9badbf24bd8", divId: "adobe-dc-view" });
     adobeDCView.previewFile({
-        content: { location: { URL: "./assets/Sarasa_Pattabiraman.pdf" } },
+        content: { location: { URL: "assets/Sarasa_Pattabiraman.pdf" } },
         metaData: { fileName: "Sarasa_Pattabiraman.pdf" }
     }, { embedMode: "IN_LINE", showDownloadPDF: false, showPrintPDF: false, showPageControls: false});
 });
